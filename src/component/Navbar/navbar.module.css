@@ -1,0 +1,29 @@
+.container {
+  border-bottom: 1px solid #bdbdbd;
+}
+
+.searchbar {
+  background: #ebebeb;
+  border-radius: 16.4103px;
+  height: 38px;
+  width: 230px;
+}
+
+.input {
+  width: calc(100% - 40px);
+}
+
+.input::placeholder {
+  color: #979797;
+}
+
+.cartbox {
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+  background-color: #776644;
+}
+
+.text {
+  color: #776644;
+}

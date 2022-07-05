@@ -1,0 +1,52 @@
+.topMenu {
+  overflow: scroll;
+  width: 100%;
+}
+
+.topMenuBox {
+  width: 500px;
+  /* overflow: scroll; */
+}
+
+.btnT {
+  background-color: #776644;
+  color: #fff;
+  border: 0.557453px solid #776644;
+  border-radius: 22.2981px;
+  font-weight: 500;
+  /* font-size: 11.1491px; */
+}
+
+.btn {
+  background: #ffffff;
+  border: 0.557453px solid #4f4f4f;
+  border-radius: 22.2981px;
+  color: #776644;
+  width: 125px;
+}
+
+.title {
+  max-width: 30px;
+  color: #776644;
+  border-bottom: 3px solid #776644;
+}
+
+.card {
+  width: 31%;
+}
+
+@media screen and (max-width: 1000px) {
+  .card {
+    width: 47%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .card {
+    width: 100%;
+  }
+
+  .cardBox {
+    padding: 0px 5%;
+  }
+}
